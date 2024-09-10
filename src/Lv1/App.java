@@ -1,7 +1,9 @@
+package Lv1;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
+public class App {
     public static void main(String[] args) {
 
         // 변수 선언
