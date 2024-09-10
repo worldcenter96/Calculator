@@ -2,7 +2,6 @@ package Lv2;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 
 public class Calculator {
 
@@ -41,11 +40,6 @@ public class Calculator {
     public void allClear() {
         resultList.clear();
         System.out.println("모든 결과 데이터가 삭제 되었습니다.");
-    }
-
-    // 객체 수 파악
-    public void size() {
-        System.out.println("결과 값의 수: " + resultList.size());
     }
 
     // 큐 객체 확인
